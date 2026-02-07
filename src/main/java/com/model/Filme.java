@@ -1,16 +1,19 @@
-package main.java.com.model;
+package com.model;
 
 public class Filme {
-    private String nome;
+    private String titulo;
     private String genero;
     private int anoLancamento;
 
-    public String getNome() {
-        return nome;
+    public Filme(String text, String text1, int i) {
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getGenero() {
@@ -21,11 +24,11 @@ public class Filme {
         this.genero = genero;
     }
 
-    public int getAnoLancamento() {
+    public int getAno() {
         return anoLancamento;
     }
 
-    public void setAnoLancamento(int anoLancamento) {
+    public void setAno(int anoLancamento) {
         this.anoLancamento = anoLancamento;
     }
 
